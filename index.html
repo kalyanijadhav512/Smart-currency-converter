@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INR Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="converter">
+        <h2>INR Currency Converter</h2>
+        <input type="number" id="inrAmount" placeholder="Enter amount in INR">
+        
+        <select id="currencySelect">
+            <option value="USD">$ - US Dollar</option>
+            <option value="EUR">€ - Euro</option>
+            <option value="JPY">¥ - Japanese Yen</option>
+            <option value="GBP">£ - British Pound</option>
+        </select>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
